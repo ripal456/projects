@@ -1,0 +1,244 @@
+/* ************************* */
+/* navigation bar */
+
+.header {
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 16px 0 16px;
+  background-color: #ddd;
+}
+
+.main-heading {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navigation {
+  gap: 25px;
+}
+
+.nav-links {
+  gap: 10px;
+  list-style: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #111;
+}
+
+/* ************************ */
+/* hero section */
+
+.section-hero {
+  padding: 16px 16px 32px 16px;
+  background-color: #ddd;
+  margin-bottom: 32px;
+}
+
+.hero {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-box {
+  width: 50%;
+}
+
+.hero-img-box img {
+  display: block;
+  width: 100%;
+}
+
+.primary-heading {
+  font-size: 37px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+/* ************************* */
+/* section feature */
+
+.features {
+  max-width: 1100px;
+  margin: 0 auto 70px auto;
+}
+
+.features-steps {
+  gap: 48px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.feature-number {
+  display: inline;
+  font-size: 140px;
+  width: 60px;
+  font-weight: 500;
+}
+
+.feature-heading {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.feature-text {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* *************************** */
+/* section blog */
+
+.blog-header {
+  background-color: #ddd;
+  padding: 12px 16px 32px 16px;
+  margin-bottom: 60px;
+}
+
+.margin--bottom--sm {
+  margin-bottom: 28px;
+}
+
+.blog-header span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+.blog {
+  max-width: 1300px;
+  margin: 0 auto 90px auto;
+  gap: 40px;
+}
+.blog-box {
+  margin-bottom: 40px;
+}
+
+.blog-box:last-child {
+  margin-bottom: 0;
+}
+
+.blog-box img {
+  width: 100%;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.blog-box span {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.blog-text {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.blog-link:link,
+.blog-link:visited {
+  font-size: 14px;
+  color: #000;
+  font-weight: 300;
+}
+
+.blog-link:hover,
+.blog-link:active {
+  text-decoration: none;
+  color: #333;
+}
+
+/* section contact */
+
+.contact-header {
+  background-color: #ddd;
+  padding: 12px 16px 32px 16px;
+  margin-bottom: 60px;
+}
+
+.contact-header span {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+.contact {
+  max-width: 1100px;
+  margin: 90px auto;
+}
+
+.contact h2 {
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.contact-boxes {
+  gap: 48px;
+  margin: 90px auto 120px auto;
+}
+
+.contact-box img {
+  border-radius: 50%;
+  display: block;
+  width: 108px;
+  height: 108px;
+  margin-bottom: 24px;
+}
+.contact-box span {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 16px;
+}
+.contact-box p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.contact-link:link,
+.contact-link:visited {
+  display: inline-block;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+  margin-top: 16px;
+}
+
+.contact-link:hover,
+.contact-link:active {
+  border: none;
+}
+
+.margin--bottom--md {
+  margin-bottom: 20px !important;
+}
+
+#map {
+  flex: 1;
+  height: 400px;
+  margin-top: 48px;
+  background-color: #ddd;
+}

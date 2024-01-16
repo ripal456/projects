@@ -1,0 +1,51 @@
+###############
+Über Uns:
+###############
+Happy Coders
+Über uns
+Blog
+Kontakt
+
+Happy Coders Development
+
+Wir coden Webseiten, Web Apps und native Apps.
+Wir sind spezialisiert auf AI.
+Und wir sind immer happy.
+
+1 Development Wir entwickeln für Sie.
+2 User Experience User Experience ist unser Thema.
+3 Don't worry, be happy! Wir sind happy und haben immer gute Laune.
+
+Consulting
+Sie haben eine Idee, wissen aber nicht, wie Sie diese umsetzen können? Wir beraten Sie gerne.
+
+Mobile Apps
+Wir entwickeln mobile Apps für iOS, Android und natürlich auch für das brandneue OpenMoko.
+
+Web Development Wir kennen alle Frameworks und setzen diese verantwortungsvoll ein.
+
+Made with happiness
+
+###############
+Blog:
+###############
+
+19/10/22
+Mobile App
+Wir haben eine neue mobile App entwickelt, die alles bisher dagewesene in den Schatten stellt. Die App verfügt über viele neue innovative Features. Mehr lesen
+
+18/10/22 Roboter Wir haben einen Roboter entwickelt, der ein Buch lesen kann, während er auf einer Bank sitzt. Besser geht es nicht. Mehr lesen
+
+17/10/22Server Wir haben viele neue Server gekauft. An jedem Server stecken viele Kabel, und die Lichter blinken sehr schön. Mehr lesen
+
+17/10/22 Carbonara Unser CEO Marc isst gerne Spaghetti. Hier das einzige original italienische Rezept. Natürlich ohne Sahne. Mehr lesen
+
+16/10/22 Autonomes Fahrzeug Lest mehr über unser autonomes Fahrzeug, das unsere Happy Coder alle kostenlos nutzen können. The "Future is now"! Mehr lesen
+
+15/10/22 Team Event Bei uns macht die Arbeit Spaß, aber die Team Events noch viel mehr. Mehr lesen
+
+10/10/22 Lieblingsdrink Marc trinkt am liebsten Negroni. Hier hat er sein Mixrezept dafür aufgeschrieben. Mehr lesen
+
+08/10/22 Unser Office Wir haben ein tolles Office mit Laptops, Tischen und mit ganz vielen motivierten Mitarbeiter*innen. Mehr lesen
+
+26/09/22 React React ist ein tolles Frontend-Framework. Lest hier, wie wir es erfolgreich in unseren Projekten einsetzen. Mehr lesen Made with happiness

@@ -1,0 +1,205 @@
+@media (max-width: 1100px) {
+  .header {
+    padding: 32px;
+  }
+
+  .main-heading {
+    font-size: 24px;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 20px;
+  }
+
+  .social-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .subheading {
+    font-size: 24px;
+  }
+
+  .primary-heading {
+    font-size: 40px;
+  }
+
+  .hero {
+    display: block;
+  }
+
+  .hero-img-box img {
+    display: none;
+  }
+
+  .hero-text-box {
+    width: 100%;
+    padding: 0 64px;
+  }
+
+  .features {
+    max-width: 850px;
+  }
+
+  .blog {
+    max-width: 850px;
+  }
+
+  .blog-header span {
+    margin-left: 32px;
+  }
+
+  .margin--bottom--sm {
+    margin-bottom: 0;
+  }
+
+  .contact-header span {
+    margin-left: 32px;
+  }
+
+  .contact {
+    max-width: 850px;
+  }
+}
+
+/* second breakpoint less than 750px */
+@media (max-width: 750px) {
+  .hidden {
+    display: none;
+  }
+
+  .social-icon {
+    width: 14px;
+  }
+
+  .list-icon {
+    display: inline-block;
+  }
+
+  .main-heading {
+    font-size: 20px;
+  }
+
+  .subheading {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .primary-heading {
+    font-size: 30px;
+  }
+
+  .features {
+    max-width: 500px;
+  }
+
+  .feature-number {
+    font-size: 100px;
+  }
+
+  .feature-heading {
+    font: size 20px;
+  }
+
+  .feature-text {
+    font-size: 12px;
+  }
+
+  .cards {
+    gap: 8px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .card-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .card-heading {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .card-description {
+    font-size: 10px;
+    letter-spacing: 0.1px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+  .margin--bottom--sm {
+    margin-bottom: 0;
+  }
+
+  .blog-header span {
+    font-size: 14px;
+    margin-left: 32px;
+  }
+
+  .blog {
+    max-width: 650px;
+  }
+
+  .blog-box {
+    margin-bottom: 32px;
+  }
+
+  .blog-box img {
+    margin-bottom: 20px;
+  }
+
+  .blog-box span {
+    font-size: 12px;
+  }
+
+  .blog-text {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+  }
+
+  .blog-link:link,
+  .blog-link:visited {
+    font-size: 12px;
+  }
+
+  .contact-header span {
+    font-size: 14px;
+    margin-left: 34px;
+  }
+
+  .contact {
+    max-width: 650px;
+  }
+
+  .contact h2 {
+    font-size: 36px;
+  }
+
+  .contact-boxes {
+    gap: 32px;
+  }
+
+  .contact-box img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .contact-box span {
+    font-size: 12px;
+  }
+
+  .contact-box p {
+    font-size: 10px;
+  }
+
+  .contact-link:link,
+  .contact-link:visited {
+    font-size: 10px;
+  }
+}

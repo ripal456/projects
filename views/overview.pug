@@ -1,0 +1,80 @@
+extends base
+
+block content 
+ //- AI Natural Language Search Section
+ section.ai-search-section
+  .ai-search-container
+   h2.ai-search-title
+    span 🤖
+    | AI-Powered Tour Search
+   p.ai-search-subtitle Search tours naturally - just describe what you're looking for!
+   .ai-search-box
+    input#ai-search-input(type="text" placeholder="e.g., 'Adventure tours under $1000' or 'Easy beach vacation for family'")
+    button#ai-search-btn
+     span 🔍
+     | Search
+   #ai-search-suggestions
+   .ai-search-examples
+    button.ai-search-example(onclick="document.getElementById('ai-search-input').value='budget hiking tours'; window.aiSearch.performSearch();") Budget hiking tours
+    button.ai-search-example(onclick="document.getElementById('ai-search-input').value='easy family vacation'; window.aiSearch.performSearch();") Easy family vacation
+    button.ai-search-example(onclick="document.getElementById('ai-search-input').value='adventure under $1500'; window.aiSearch.performSearch();") Adventure under $1500
+    button.ai-search-example(onclick="document.getElementById('ai-search-input').value='7-day tour'; window.aiSearch.performSearch();") 7-day tour
+
+ //- Search Results Container
+ #ai-search-results
+
+ //- AI Recommendations Section
+ section.recommendations-section
+  #recommendations-container
+   .recommendations-header
+    h2.heading-secondary
+     span.ai-badge-large 🤖 AI Powered
+     |  Recommended For You
+   .card-container.recommendations-grid
+    p.loading-spinner Loading personalized recommendations...
+
+ //- All Tours Section
+ section.main 
+  h2.heading-secondary(style="text-align: center; margin-bottom: 4rem;") All Available Tours
+  .card-container 
+   each tour in tours
+    .card 
+     .card__header 
+      .card__picture 
+       .card__picture-overlay &nbsp;
+       img.card__picture-img(src=`/img/tours/${tour.imageCover}`, alt=`${tour.name}`)
+      h3.heading-tertirary 
+       span=tour.name
+     .card__details 
+      h4.card__sub-heading #{tour.difficulty} #{tour.duration}-day tour 
+      p.card__text #{tour.summary}
+      .card__data
+       svg.card__icon 
+        use(xlink:href="/img/icons.svg#icon-map-pin")
+       span #{tour.startLocation.description}
+      .card__data 
+       svg.card__icon 
+        use(xlink:href="/img/icons.svg#icon-calendar")
+       span=tour.startDates[0].toLocaleString('en-us',{month:'long',year:'numeric'})
+      .card__data 
+       svg.card__icon 
+        use(xlink:href="/img/icons.svg#icon-flag")  
+       span #{tour.locations.length}
+      .card__data 
+        svg.card__icon 
+         use(xlink:href="/img/icons.svg#icon-user")  
+        span #{tour.maxGroupSize} people
+     .card__footer 
+      p
+       span.card__footer-value $#{tour.price}
+       |
+       span.card_-footer-text  per person 
+      p.card__ratings 
+       span.card_-footer-value=tour.ratingsaverage
+       |
+       span.card__footer-text rating (#{tour.ratingsQuantity})
+      a.btn.btn--green.btn--small(href=`/tour/${tour.slug}`) Details 
+
+block append head
+ script(src="/js/recommendations.js" type="module" defer)
+ script(src="/js/aiSearch.js" defer)
